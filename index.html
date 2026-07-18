@@ -6,7 +6,7 @@
     <title>Team Project Control Hub</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  
     <style>
         body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
         .fade-in { animation: fadeIn 0.3s ease-in-out; }
@@ -182,9 +182,7 @@
     </div>
 
     <script>
-        const SUPABASE_URL = "https://oapffbyehjcgghdsdjhp.supabase.co/rest/v1/";        // 👈 填入你在 Supabase 复制的 API URL
-        const SUPABASE_KEY = "sb_publishable_OnhPzXGTcqO0Fjrb-L5oHw_-AIoL4Ss"; // 👈 填入你在 Supabase 复制的 Publishable key
-        const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+       
         // 1. Core State & Data Models
         // 1. Core State & Data Models
         let globalStatuses = [
